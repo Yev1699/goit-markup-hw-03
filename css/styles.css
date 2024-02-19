@@ -31,7 +31,7 @@ img {
 .section {
   padding: 120px 0;
 }
-.sr-only {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -226,16 +226,19 @@ img {
   padding: 100px 0;
   background: #2e2f42;
 }
+
 .page-footer .studio {
   color: #f4f4fd;
 }
+
 .footer-text {
-  block-size: 0;
-  margin-bottom: 16px 0;
+  display: block;
+  margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 .logo {
   display: inline-block;
 }
