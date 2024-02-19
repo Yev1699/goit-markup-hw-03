@@ -199,6 +199,12 @@ h3 {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+  border-top: none;
+}
 .portfolio-sub-title {
   font-weight: 500;
   font-size: 20px;
@@ -209,20 +215,21 @@ h3 {
 }
 .portfolio-text {
   line-height: 1.5;
+
   letter-spacing: 0.02em;
 }
 /* ========FOOTER======= */
 .page-footer {
-  padding: 101.5px;
+  padding: 100px 0;
   background: #2e2f42;
 }
 .page-footer .studio {
   color: #f4f4fd;
 }
 .footer-text {
-  padding: 16px 0;
-  max-width: 264px;
+  margin-bottom: 16px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  display: inline-block;
 }
