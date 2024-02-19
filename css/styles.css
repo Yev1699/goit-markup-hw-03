@@ -223,21 +223,20 @@ img {
 }
 /* ========FOOTER======= */
 .page-footer {
-  padding: 100px 0;
+  padding: 100px;
   background: #2e2f42;
+}
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .page-footer .studio {
   color: #f4f4fd;
 }
 .footer-text {
-  block-size: 0;
-  margin-bottom: calc(16px);
   max-width: 264px;
+  min-height: 72px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.logo {
-  display: inline-block;
 }
